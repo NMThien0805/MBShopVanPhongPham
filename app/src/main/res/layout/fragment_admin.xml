@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.fragment.UserFragment"
+    android:background="@color/LightBlue"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/frag_admin_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/admin1"
+            >
+            
+        </ImageView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/Base.CardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:text="Họ tên : "
+                        android:textSize="25dp"></TextView>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        android:id="@+id/frag_admin_hoten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thành Tín"
+                        ></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <TextView
+                        style="@style/Base.CardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:text="Giới tính : "
+                        android:textSize="25dp"></TextView>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        android:id="@+id/frag_admin_gioitinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nam"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        style="@style/Base.CardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:text="Email : "
+                        android:textSize="25dp"></TextView>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        android:id="@+id/frag_admin_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thanhtin9@gmail.com "
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <TextView
+                        style="@style/Base.CardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:text="SDT: "
+                        android:textSize="25dp"></TextView>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        android:id="@+id/frag_admin_sdt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0364559837"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <TextView
+                        style="@style/Base.CardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:text="Địa chỉ : "
+                        android:textSize="25dp"></TextView>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        android:id="@+id/frag_admin_diachi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="104/1 Man Thiện"
+                        ></TextView>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+
+
+
+
+                
+            </LinearLayout>
+
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:background="@drawable/bg_yellow_corner_button"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/frag_admin_button_dangxuat"
+                android:text="đăng xuất"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

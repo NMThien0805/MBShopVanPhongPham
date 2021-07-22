@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:id="@+id/avartar_in_ddh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/girl"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/Base.CardView"
+                android:text="Tên sp : "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></TextView>
+            <TextView
+                style="@style/Base.CardView"
+                android:text="Số lượng : "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/name_sp_inddh"
+                android:text="Tên sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            ></TextView>
+            <TextView
+                android:id="@+id/soluong_sp_inddh"
+                android:text="Số lượng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+               style="@style/Base.CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền "
+                ></TextView>
+            <TextView
+                android:id="@+id/tongtien_in_ddh"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000000"
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.inFoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/frag_user_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/admin1"
+            >
+
+        </ImageView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="101dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="cursive"
+                    android:text="Họ tên : "
+                    android:textSize="25dp"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="cursive"
+                    android:text="Email "
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="cursive"
+                    android:text="SDT"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="cursive"
+                    android:text="Địa chỉ"
+                    android:textSize="25dp"></TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:id="@+id/frag_user_hoten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thành Tín"
+                    ></TextView>
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:id="@+id/frag_user_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanhtin9@gmail.com "
+                    ></TextView>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:id="@+id/frag_user_sdt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0364559837"
+                    ></TextView>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:id="@+id/frag_user_diachi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="104/1 Man Thiện"
+                    ></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:background="@drawable/bg_yellow_corner_button"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/frag_user_button_dangxuat"
+                android:text="đăng xuất"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

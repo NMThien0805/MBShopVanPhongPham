@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_ad" android:title="admin" android:icon="@drawable/admin2"/>
+    <item android:id="@+id/menu_dh" android:title="Sản phẩm" android:icon="@drawable/productt"/>
+    <item android:id="@+id/menu_users" android:title="Users" android:icon="@drawable/user11"/>
+    <item android:id="@+id/menu_thongke" android:title="Thống kê" android:icon="@drawable/bieudo"/>
+</menu>

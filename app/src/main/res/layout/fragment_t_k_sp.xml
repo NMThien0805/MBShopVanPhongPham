@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.thongke.DDHFragment"
+    android:background="@color/LightBlue"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/layoutThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/LightBlue2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:textSize="20dp"
+            android:text="Top 5 sản phẩm bán chạy nhất tháng : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <TextView
+            android:id="@+id/thang"
+            android:text="5"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></TextView>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/piechartxx"
+        tools:ignore="MissingConstraints"></com.github.mikephil.charting.charts.PieChart>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:background="@drawable/bg_yellow_corner_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Chọn tháng"
+            android:textAllCaps="false"
+            android:id="@+id/btnChonThang"
+
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

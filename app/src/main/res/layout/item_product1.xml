@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="#93A2F4"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:padding="3dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/img_item_pro"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/admin1"
+        >
+    </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/Base.CardView"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên"
+                />
+            <TextView
+                style="@style/Base.CardView"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá"
+                />
+            <TextView
+                style="@style/Base.CardView"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="số lượng"
+                />
+            <TextView
+                style="@style/Base.CardView"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loại"
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/ten_item_pro"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên"
+            />
+        <TextView
+            android:id="@+id/gia_item_pro"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gía"
+            />
+        <TextView
+            android:id="@+id/soluong_item_pro"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="số lượng"
+            />
+        <TextView
+            android:id="@+id/loai_item_pro"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loại"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <Button
+                android:id="@+id/btn_sua"
+                android:layout_gravity="right"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="sửa"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_yellow_corner_button"
+                ></Button>
+            <Button
+                android:id="@+id/btn_xoa"
+
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="xóa"
+                android:textAllCaps="false"
+
+                ></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

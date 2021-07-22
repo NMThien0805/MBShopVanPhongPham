@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/img_item_user"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/admin1"
+        >
+    </ImageView>
+
+        <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    style="@style/Base.CardView"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên : "
+                    />
+                <TextView
+                    android:id="@+id/ten_item_user"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên"
+                    />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                style="@style/Base.CardView"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giới : "
+                />
+            <TextView
+                android:id="@+id/gioitinh_item_user"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá"
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/Base.CardView"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="email : "
+                    />
+                <TextView
+                    android:id="@+id/email_item_user"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="số lượng"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/Base.CardView"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sđt : "
+                    />
+                <TextView
+                    android:id="@+id/sdt_item_user"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="loại"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/Base.CardView"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="địa chỉ : "
+                    />
+                <TextView
+                    android:id="@+id/diachi_item_user"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="loại"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    style="@style/Base.CardView"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rule : "
+                    />
+                <TextView
+                    android:id="@+id/role_item_user"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="loại"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <Button
+                android:id="@+id/btn_xoa_user"
+
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="xóa"
+                android:textAllCaps="false"
+
+                ></Button>
+            <Button
+                android:id="@+id/btn_sua_user"
+                android:layout_gravity="right"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="sửa"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_yellow_corner_button"
+
+                ></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

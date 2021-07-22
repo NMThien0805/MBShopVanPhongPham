@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logocart"
+        android:id="@+id/imgSanPhamGioHang"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Tên sp"
+        android:gravity="center"
+        android:id="@+id/tvTenSP"
+        android:textSize="18dp"
+        android:textColor="#333333"/>
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá"
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:id="@+id/tvGiaSPGioHang"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="số lượng"
+            android:id="@+id/edtSoLuongGioHang"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imgDeleteGioHang"
+        android:src="@drawable/logodelete"
+        android:gravity="center"/>
+
+</LinearLayout>

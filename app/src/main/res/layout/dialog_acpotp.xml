@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="#DEA4EF"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="70dp"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginTop="100dp"
+        android:text="KIỂM TRA MÃ OTP"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/edtOTP"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Mời nhập OTP"/>
+
+    <Button
+        android:id="@+id/btnAcpOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Accept"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnBackOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/divider"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

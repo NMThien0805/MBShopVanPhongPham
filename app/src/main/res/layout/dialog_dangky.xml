@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/Amber"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/edtUsernameDK"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập tài khoản"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/edtPasswordDK"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập mật khẩu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Tên"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập tên"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/edtmail"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập email"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/edtDiachi"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập địa chỉ"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/Teal"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mời nhập SĐT"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btnFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EFF68D"
+            android:textColor="@color/white"
+            android:text="Folder" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#EFF68D"
+            android:textColor="@color/white"
+            android:text="Camera" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnDangKyDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#EFF68D"
+            android:textColor="@color/white"
+            android:text="Đăng ký" />
+        <Button
+            android:id="@+id/btnBack"
+            android:background="#EFF68D"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>

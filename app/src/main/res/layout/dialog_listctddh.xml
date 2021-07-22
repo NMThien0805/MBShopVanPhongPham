@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Mã đơn đặt hàng: "
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaaa"
+            android:textSize="16dp"
+            android:id="@+id/tvmaddhinlistctddh"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày đặt: "
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaaa"
+            android:textSize="16dp"
+            android:id="@+id/tvngaydatinlistctddh"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:id="@+id/lvctddhinddh"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnBackCTDDHinDDH"
+        android:text="Thoát"
+        android:hint="#9E9595"
+        android:textColor="#fff"/>
+
+</LinearLayout>
